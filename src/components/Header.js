@@ -2,6 +2,7 @@ import React, { useState, useRef } from 'react';
 import CartIcon from '../supermarket.svg';
 import useOnClickOutside from 'use-onclickoutside';
 import { useCart } from '../contexts/use-cart';
+import Cart from './Cart';
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,7 +21,7 @@ export default function Header() {
           </button>
 
           <div ref={modalRef} className='cart-modal' style={{display: isOpen? 'block' : 'none'}}>
-            Cart goes hers
+            <Cart />
           </div>
         </div>
       </div>
