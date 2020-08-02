@@ -1,26 +1,26 @@
 export default [
 {
     sku: 123,
-    name: 'Occupy Mars Shirt',
-    image_url: 'https://i.imgur.com/dHzSCmK.png',
-    price: 20,
+    name: 'Mobile & Laptop',
+    image_url: 'https://source.unsplash.com/400x400/?laptop,mobiles',
+    price: 200,
 },
 {
     sku: 456,
-    name: 'Starman Shirt',
-    image_url: 'https://i.imgur.com/uKxQCRX.png',
-    price: 30,
+    name: 'Apple iPhone',
+    image_url: 'https://source.unsplash.com/400x400/?apple,mobiles',
+    price: 300,
 },
 {
     sku: 789,
-    name: 'Crew Dragon Shirt',
-    image_url: 'https://i.imgur.com/5X6jmXs.png',
-    price: 40,
+    name: 'Samsung Mobile',
+    image_url: 'https://source.unsplash.com/400x400/?samsung,mobiles',
+    price: 400,
 },
 {
     sku: 1011,
-    name: 'Ripley Shirt',
-    image_url: 'https://i.imgur.com/eeZ3FQE.png',
-    price: 50,
+    name: 'Laptops',
+    image_url: 'https://source.unsplash.com/400x400/?laptop',
+    price: 500,
 },
 ];

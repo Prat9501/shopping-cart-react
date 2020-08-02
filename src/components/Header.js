@@ -16,6 +16,7 @@ export default function Header() {
     <header>
       <div className="container">
         <div className="cart-button">
+          <h3>Shopping Cart</h3>
           <button onClick={() => setIsOpen(true)}>
             <img src={CartIcon} width="30" />({cart.length})
           </button>
